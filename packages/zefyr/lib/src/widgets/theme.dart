@@ -338,6 +338,7 @@ class AttributeTheme {
         break;
       case TargetPlatform.android:
       case TargetPlatform.fuchsia:
+      case TargetPlatform.windows:
         monospaceFontFamily = 'Roboto Mono';
         break;
       default:
